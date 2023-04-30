@@ -23,6 +23,7 @@ p {
 .portada {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(imagenes/bg.jpg);
+    
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -42,6 +43,7 @@ p {
 .logo {
   color: #edebf3;
   font-size: 25px;
+  
 }
 .menu .navbar ul li {
   position: relative;
@@ -125,8 +127,125 @@ h2{
   margin-bottom: 35px;
 
 }
-.captaciones{
+.informacion{
   display: flex;
   justify-content: space-between;
   padding: 50px 0;
 }
+.informacion-1{
+  display: flex;
+  align-items: center;
+}
+.informacion-1 h3{
+  font-size: 100px;
+  color: white;
+}
+.informacion-1 p{
+  font-size: 16px;
+  color: white;
+  margin-left: 15px;
+}
+
+.house{
+  display: flex;
+  justify-content: space-between;
+} 
+.house-1{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(imagenes/i2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 25px;  
+}
+.house-2{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(imagenes/i3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 25px;  
+}
+.house-3{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(imagenes/i4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 25px;  
+}
+.house-4{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(imagenes/i5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 25px;  
+}
+.house-5{
+  background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(imagenes/i6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  padding: 25px;  
+}
+.txt span{
+  color: white;
+  font-size: 35px;
+}
+.txt h3{
+  color: white;
+  font-size: 35px;
+}
+.txt p{
+  font-size: 16px;
+  color:white;
+  position: absolute;
+   
+}
+.footer{
+  padding: 100px 0 0 0;
+}
+.footer-content{
+  display: flex;
+}
+.footer-form{
+  width: 50%;
+}
+form{
+  display: flex;
+  width: 350px;
+  flex-direction: column;
+  margin-left: 200px;
+}
+.campo{
+  background-color:white;
+  padding: 17px 35px;
+  outline: none;
+  color: #252526;
+  border: 0;
+  margin-bottom: 10px;
+
+}
+
