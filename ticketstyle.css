@@ -34,3 +34,30 @@
   .cuadro{
     align-items: center;
   }
+
+  .registro{
+    background:white;
+    padding: 100px;
+    margin: 150;
+    margin-top: 100px;
+    
+  }
+  .ingreso{
+    width: 350px;
+    background: rgb(190, 175, 135);
+    width: 100%;
+  }
+
+  .registro h5{
+    font-size: 30px;
+    padding: 0;
+
+  }
+.nombres{
+  display: grid;
+  grid-template-columns: 149% 150%;
+  
+  width: 33.5%;
+  padding: 0;
+
+}
